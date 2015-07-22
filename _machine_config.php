@@ -16,10 +16,10 @@ require_once("verysimple/HTTP/RequestUtil.php");
 
 /** database connection settings */
 GlobalConfig::$CONNECTION_SETTING = new ConnectionSetting();
-GlobalConfig::$CONNECTION_SETTING->ConnectionString = "localhost:9906";
-GlobalConfig::$CONNECTION_SETTING->DBName = "laudo";
-GlobalConfig::$CONNECTION_SETTING->Username = "root";
-GlobalConfig::$CONNECTION_SETTING->Password = "f4m1l14.123";
+GlobalConfig::$CONNECTION_SETTING->ConnectionString = "";
+GlobalConfig::$CONNECTION_SETTING->DBName = "";
+GlobalConfig::$CONNECTION_SETTING->Username = "";
+GlobalConfig::$CONNECTION_SETTING->Password = "";
 GlobalConfig::$CONNECTION_SETTING->Type = "MySQL_PDO";
 GlobalConfig::$CONNECTION_SETTING->Charset = "utf8";
 GlobalConfig::$CONNECTION_SETTING->Multibyte = true;
